@@ -19,17 +19,24 @@ function whileLoop(n){
     }
     return "done";
 }
+
+ 
 var i = 0;
  
 function incrementVariable() {
   i = i + 1;
+    console.log("i is" + i)
   return i;
 }
  
 function doWhileLoop(n) {
 
 do {
-  incrementVariable()
-  console.log("I run once regardless.")
-} while (incrementVariable() < n)
+  
+  console.log("I run once regardless." + i)
+   incrementVariable()
+} while (i < n){
+  
+}
+
 }
