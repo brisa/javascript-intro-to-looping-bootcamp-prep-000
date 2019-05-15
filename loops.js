@@ -34,7 +34,7 @@ do {
   
   console.log("I run once regardless." + i)
    incrementVariable()
-} while (i < n){
+} while (i <= n){
   
 }
 
